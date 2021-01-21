@@ -1,81 +1,17 @@
 body{
-
-margin:0;
-padding:0;
-font-family:sans-serif;
-background-color: darkcyan;
-
-
-
-}
-.box{
-    width: 300px;
-    padding:30px;
-    position: absolute;
-    top: 50%;
-    left:50%;
-    transform: translate(-50%,-50%);
-    background-color: darkgoldenrod;
-    text-align: center;
-
-}
-.box h1
-{
-color: black;
-font-weight: 300;
-
-
-}
-
-.box input[type="text"],.box input[type="password"]
-{
-    border: 0;
-    background: none;
-    display: block;
-    text-align: center;
-    margin: 20px;
-    border:3px solid #0367fd;
-
-    padding: 14px 10px;
-    width: 200px;
-    outline: none;
-    color:chocolate;
-    border-radius: 24px;
-    transition: 0.25px;
-
-}
-.box input[type="text"]:focus,.box input[type="password"]:focus{
-
-    width: 200px;
-    border-color: cornflowerblue;
-    background-color: cyan;
-
-
-
-
-}
-
-.box input[type="submit"]{
-
-
-    border: 0;
-    background: none;
-    display: block;
-    text-align: center;
-    margin: 20px auto;
-    border:3px solid #020001;
-
-
-    padding: 14px 10px;
+        margin:0;
+        padding:0;
+        font-family:sans-serif;
+        background-color: darkcyan;
     
-    outline: none;
-    color:chocolate;
-    border-radius: 24px;
-    transition: 0.25px;
-    cursor: pointer;
-
+        
+        
 }
-.box input[type="submit"]:hover{
-    background: crimson;
+
+.thnk h1{
+
+    color: black;
+    font-weight: 300;
+    
 
 }
